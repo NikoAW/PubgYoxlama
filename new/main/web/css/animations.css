@@ -1,0 +1,3 @@
+.spin{width:46px;height:46px;border-radius:50%;border:4px solid rgba(255,255,255,.15);border-top-color:var(--a);animation:r 1s linear infinite;margin:0 auto 12px}
+@keyframes r{to{transform:rotate(360deg)}}
+.glass,.btn{animation:f .5s ease both}@keyframes f{from{opacity:0;transform:translateY(8px)}}
