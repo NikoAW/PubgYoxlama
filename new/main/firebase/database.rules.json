@@ -1,0 +1,18 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "users": { "$uid": { ".read": "auth.uid === $uid || root.child('admins/'+auth.uid).val() === true" } },
+    "plans": { ".read": "auth != null" },
+    "scanCodes": {
+      ".indexOn": ["status"],
+      "$code": { ".read": "auth != null && (data.child('owner').val() === auth.uid || root.child('admins/'+auth.uid).val() === true)" }
+    },
+    "userCodes": { "$uid": { ".read": "auth.uid === $uid" } },
+    "scans": { "$code": { ".read": "auth != null && (data.child('owner').val() === auth.uid || root.child('admins/'+auth.uid).val() === true)" } },
+    "deviceRecords": { ".read": "root.child('admins/'+auth.uid).val() === true" },
+    "notifications": { "$uid": { ".read": "auth.uid === $uid" } },
+    "planRequests": { ".read": "root.child('admins/'+auth.uid).val() === true" },
+    "admins": { ".read": false }
+  }
+}
