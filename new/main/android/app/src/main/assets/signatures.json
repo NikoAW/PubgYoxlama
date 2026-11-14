@@ -1,0 +1,8 @@
+{
+  "_note": "Rəsmi PUBG APK-nın SHA-256 imza hash-lərini bura yaz. Boş olarsa imza yoxlanılmır: Yoxlanılmadı.",
+  "pubgOfficialSha256": [],
+  "cheatPackages": [],
+  "virtualEnvPackages": ["com.lbe.parallel.intl","com.excelliance.dualaid","com.vmos.pro","com.vmos.glb","com.lody.virtual","io.va.exposed","com.ludashi.dualspace","com.polestar.super.clone","com.cloneapp.parallelspace.dualspace","com.parallel.space.lite"],
+  "macroPackages": ["com.truedevelopersstudio.automatictap.autoclicker","com.cygery.repetitouch.pro","com.cygery.repetitouch.free","com.rsupport.rcsample"],
+  "rootPackages": ["com.topjohnwu.magisk","eu.chainfire.supersu","me.weishu.kernelsu"]
+}
