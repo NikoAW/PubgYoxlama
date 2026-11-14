@@ -2,14 +2,14 @@ name: Android APK
 on:
   push:
     branches: [main]
-    paths: ['android/**']
+    paths: ['new/main/android/**']
   workflow_dispatch:
 jobs:
   build:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: android
+        working-directory: new/main/android
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-java@v4
@@ -23,4 +23,4 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: SafeCheck-debug-apk
-          path: android/app/build/outputs/apk/debug/*.apk
+          path: new/main/android/app/build/outputs/apk/debug/*.apk
