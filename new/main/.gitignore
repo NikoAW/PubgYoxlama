@@ -1,0 +1,5 @@
+node_modules/
+android/app/google-services.json
+android/.gradle/
+android/app/build/
+*.jks
