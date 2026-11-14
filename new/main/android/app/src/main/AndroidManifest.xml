@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <queries>
+    <package android:name="com.tencent.ig"/>
+    <package android:name="com.lbe.parallel.intl"/><package android:name="com.excelliance.dualaid"/>
+    <package android:name="com.vmos.pro"/><package android:name="com.vmos.glb"/><package android:name="com.lody.virtual"/>
+    <package android:name="io.va.exposed"/><package android:name="com.ludashi.dualspace"/><package android:name="com.polestar.super.clone"/>
+    <package android:name="com.cloneapp.parallelspace.dualspace"/><package android:name="com.parallel.space.lite"/>
+    <package android:name="com.truedevelopersstudio.automatictap.autoclicker"/><package android:name="com.cygery.repetitouch.pro"/><package android:name="com.cygery.repetitouch.free"/>
+    <package android:name="com.topjohnwu.magisk"/><package android:name="eu.chainfire.supersu"/><package android:name="me.weishu.kernelsu"/>
+  </queries>
+  <application android:label="SafeCheck" android:theme="@style/Theme.AppCompat.NoActionBar" android:allowBackup="false">
+    <activity android:name=".MainActivity" android:exported="true">
+      <intent-filter><action android:name="android.intent.action.MAIN"/><category android:name="android.intent.category.LAUNCHER"/></intent-filter>
+    </activity>
+  </application>
+</manifest>
